@@ -9,6 +9,7 @@ import UseMemo2 from '../Usememo/UseMemo2'
 import Qrreader from '../Qr-reader/Qrreader'
 import CountryAndCity from '../Interview Questions/CountryAndCity'
 import CountryAndCity2 from '../Interview Questions/CountryAndCity2'
+import CheckAndDelete from '../Interview Questions/CheckAndDelete'
 
 const Main = () => {
 
@@ -24,6 +25,7 @@ const Main = () => {
             <Route path='/qr-reader' element={<Qrreader/>}/>
             {/* <Route path='/country-city' element={<CountryAndCity/>}/> */}
             <Route path='/country-city' element={<CountryAndCity2/>}/>
+            <Route path='/check-delete' element={<CheckAndDelete/>}/>
 
         </Routes>        
         </>

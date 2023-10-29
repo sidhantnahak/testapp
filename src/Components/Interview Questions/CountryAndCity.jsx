@@ -8,7 +8,6 @@ const CountryAndCity = () => {
     const [country, setCountry] = useState(data);
     const [countryval, setCountryval] = useState(0)
     const [city, setCity] = useState()
-    console.log(countryval,city)
     useEffect(() => {
       setCity(country[countryval].cities[0])
     }, [countryval])

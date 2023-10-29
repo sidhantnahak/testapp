@@ -23,6 +23,15 @@ import Home from './Components/Sidebar/Home';
 export const userContext = createContext();
 export default function App() {
   const [user, setuser] = useState("sidhant")
+console.log(user)
+useEffect(() => {
+  console.log("inside useeffect ",user)
+  setTimeout(() => {
+    setuser("sidhnat nahak");
+  }, 2000);
+}, [user])
+
+  
   return (
     <>
       <BrowserRouter>

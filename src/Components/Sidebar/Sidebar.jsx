@@ -23,10 +23,11 @@ const Sidebar = () => {
                 <Link to='/contents'>Dashboard</Link>
                 <Link to='/pichart'>Pi Chart</Link>
                 <Link to="/search-functionality">Search Functionality</Link>
-                <Link to="/object-update">Update Object</Link>
-                <Link to="/memo-hook">Memo Hook</Link>
+                {/* <Link to="/object-update">Update Object</Link>
+                <Link to="/memo-hook">Memo Hook</Link> */}
                 <Link to="/qr-reader">QR-Reader</Link>
                 <Link to="/country-city">Dropdown city</Link>
+                <Link to="/check-delete">Check And Delete</Link>
 
             </aside>
 
